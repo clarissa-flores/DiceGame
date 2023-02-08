@@ -17,18 +17,28 @@ h1 {
   margin: 30px;
   font-size: 8rem;
   font-family: "Lobster", cursive;
-  color: #538D5C;
+  color: #538d5c;
   text-shadow: 5px 0 #232931;
 }
 
 p {
   font-size: 2rem;
   font-family: "Indie Flower", cursive;
-  color: #538D5C;
+  color: #538d5c;
 }
 
 img {
   width: 80%;
+}
+
+input[type="button"] {
+  margin-top: 5%;
+  border: none;
+  background-color: #eeeeee;
+  font-size: 2rem;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  color: #393e46;
 }
 
 footer {

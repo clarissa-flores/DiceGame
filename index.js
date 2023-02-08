@@ -16,9 +16,9 @@ document.querySelector(".dice .img2").setAttribute("src", dice2);
 // Declaring Winner or Draw //
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML="Player 1 Wins!";
+  document.querySelector("h1").innerHTML = "Player 1 Wins!";
 } else if (randomNumber1 < randomNumber2) {
-  document.querySelector("h1").innerHTML="Player 2 Wins!";
+  document.querySelector("h1").innerHTML = "Player 2 Wins!";
 } else if (randomNumber1 === randomNumber2) {
-  document.querySelector("h1").innerHTML="Draw!";
+  document.querySelector("h1").innerHTML = "Draw!";
 }
